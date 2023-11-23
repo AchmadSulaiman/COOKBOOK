@@ -1,0 +1,30 @@
+section img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    object-fit: cover;
+}
+
+section.wrapper {
+    padding: 24px;
+    background-color: white;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+.comment {
+    margin: 0 24px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 12px;
+    line-height: 1.25;
+}
+
+.comment .name {
+    margin-bottom: 8px;
+    font-weight: bold;
+}

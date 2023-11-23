@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.login p {
+    margin-top: 24px;
+    margin-bottom: 6px;
+}
+
+.login .login-strip {
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.login .login-strip.google {
+    background: #d74731;
+}
+
+.login .login-strip.facebook {
+    background: #1671e6;
+}
+
+.login .login-strip.twitter {
+    background: #1c93e4;
+}
